@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# tcc include
+include/tcc-0.9.27
+
+# build folder
+build
