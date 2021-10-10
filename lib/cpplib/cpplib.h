@@ -5,6 +5,6 @@
 #ifdef __cplusplus
 extern "C"
 #endif
-const char* append_cpp_message(const char* msg);
+const char* externC_cppFunction();
 
 #endif /* CPPLIB_H */
