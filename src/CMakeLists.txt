@@ -1,5 +1,5 @@
 include_directories(${CMAKE_BINARY_DIR}/include)
 link_directories(${CMAKE_BINARY_DIR}/lib)
-add_executable(tinyccdemo tinyccdemo.cpp)
+add_executable(tinyccdemo tinyccdemo.cpp util.cpp)
 target_link_libraries(tinyccdemo cpplib libtcc.a dl)
 add_dependencies(tinyccdemo tcc)
